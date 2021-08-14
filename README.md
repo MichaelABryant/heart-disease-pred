@@ -39,8 +39,8 @@ I looked at the distributions of the data and the correlations between variables
 <div align="center">
   
 <figure>
-<img src="">
-  <figcaption></figcaption>
+<img src="images/corr-heatmap.jpg">
+  <figcaption>Figure 1: Correlation heatmap for numerical variables using Pearson correlation coefficient</figcaption>
 </figure>
 <br/><br/>
   
