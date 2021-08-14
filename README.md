@@ -76,13 +76,86 @@ I looked at the distributions of the data and the correlations between variables
   
 </div>
 
-### Data Cleaning
-
-I cleaned the data to make the dataset usable for future modeling. I made the following changes:
-
 ### Feature Engineering
 
 I feature engineered using the dataset for future modeling. I made the following changes:
+
+### Model Building
+
+### Model Performance
+
+<div align="center">
+  
+<figure>
+<img src="images/confusion-matrix-svc.jpg"><br/>
+  <figcaption>Figure 5: Confusion matrix for the support vector classifier.</figcaption>
+</figure>
+<br/><br/>
+  
+</div>
+
+<div align="center">
+  
+<figure>
+<img src="images/classification-report-svc.jpg"><br/>
+  <figcaption>Figure 6: Classification report for the support vector classifier.</figcaption>
+</figure>
+<br/><br/>
+  
+</div>
+
+<div align="center">
+  
+<figure>
+<img src="images/lift-curve-svc.jpg"><br/>
+  <figcaption>Figure 7: Lift curve for the support vector classifier.</figcaption>
+</figure>
+<br/><br/>
+  
+</div>
+
+
+### Feature Importance
+
+<div align="center">
+  
+<figure>
+<img src="images/risk-factors-target.jpg"><br/>
+  <figcaption>Figure 8: SHAP summary plot of the feature importance for the SVC model.</figcaption>
+</figure>
+<br/><br/>
+  
+</div>
+
+<div align="center">
+  
+<figure>
+<img src="images/risk-factors-target.jpg"><br/>
+  <figcaption>Figure 9: Permutation importance for the stacking model.</figcaption>
+</figure>
+<br/><br/>
+  
+</div>
+
+<div align="center">
+  
+<figure>
+<img src="images/risk-factors-target.jpg"><br/>
+  <figcaption>Figure 10: Graphical representation of a decision tree.</figcaption>
+</figure>
+<br/><br/>
+  
+</div>
+
+<div align="center">
+  
+<figure>
+<img src="images/risk-factors-target.jpg"><br/>
+  <figcaption>Figure 11: Graphical representation of a decision tree.</figcaption>
+</figure>
+<br/><br/>
+  
+</div>
 
 ## Productionization
 
@@ -90,7 +163,7 @@ I feature engineered using the dataset for future modeling. I made the following
   
 <figure>
 <img src="images/front-end.JPG">
-  <figcaption></figcaption>
+  <figcaption>Figure 12: Front end of application using the SVC model.</figcaption>
 </figure>
 <br/><br/>
   
