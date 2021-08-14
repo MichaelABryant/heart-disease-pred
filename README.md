@@ -34,6 +34,8 @@ This file contains the best model (SVC) and it is pickled for use with the appli
 
 ### EDA
 
+I looked at the distributions of the data and the correlations between variables. Below are some of the highlights:
+
 <div align="center">
   
 <figure>
