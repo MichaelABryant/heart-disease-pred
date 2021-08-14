@@ -39,7 +39,7 @@ I looked at the distributions of the data and the correlations between variables
 <div align="center">
   
 <figure>
-<img src="images/corr-heatmap.jpg">
+<img src="images/corr-heatmap.jpg"><br/>
   <figcaption>Figure 1: Correlation heatmap for numerical variables using Pearson correlation coefficient</figcaption>
 </figure>
 <br/><br/>
