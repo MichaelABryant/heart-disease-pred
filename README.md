@@ -1,4 +1,4 @@
-# Project 2: US Vehicle Accidents EDA (Python)
+# Project 2: Heart Disease Prediction (Python/HTML)
 
 This repository is for the analysis and modeling done on the Kaggle: Heart Disease ICU dataset. Below you will find an overview of the data, code, and results. The goal of this project was to perform an exploratory data analysis, to prepare the data (i.e., clean and feature engineer), and to apply machine learning algorithms to predict heart disease.
 
