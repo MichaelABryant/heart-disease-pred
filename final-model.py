@@ -19,9 +19,9 @@ svc_model.fit(X_train,y_train)
 tpred_svc=svc_model.predict(X_test)
 
 
-#####pickle
-import pickle
+# #####pickle
+# import pickle
 
-outfile = open('support_vector_classification_model.pkl', 'wb')
-pickle.dump(svc_model,outfile)
-outfile.close()
+# outfile = open('support_vector_classification_model.pkl', 'wb')
+# pickle.dump(svc_model,outfile)
+# outfile.close()
