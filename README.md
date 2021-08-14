@@ -147,8 +147,6 @@ I feature engineered using the dataset for future modeling. I made the following
   
 </div>
 
-<div align="center">
-
 ## Productionization
 
 <div align="center">
