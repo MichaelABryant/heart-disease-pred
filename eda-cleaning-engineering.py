@@ -244,12 +244,12 @@ scaler=MinMaxScaler()
 X_train[numerical] = scaler.fit_transform(X_train[numerical])
 X_test[numerical] = scaler.transform(X_test[numerical])
 
-#####pickle
-import pickle
+# #####pickle
+# import pickle
 
-outfile = open('scaler.pkl', 'wb')
-pickle.dump(scaler,outfile)
-outfile.close()
+# outfile = open('scaler.pkl', 'wb')
+# pickle.dump(scaler,outfile)
+# outfile.close()
 
 ####save data to csv
 
