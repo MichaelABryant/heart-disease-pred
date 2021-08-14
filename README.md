@@ -45,7 +45,7 @@ I feature engineered using the dataset for future modeling. I made the following
 <div align="center">
   
 <figure>
-<img src="front-end.JPG">
+<img src="images/front-end.JPG">
   <figcaption></figcaption>
 </figure>
 <br/><br/>
