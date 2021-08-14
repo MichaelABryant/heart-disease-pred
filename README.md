@@ -14,9 +14,13 @@ The dataset was gathered from [Kaggle](https://www.kaggle.com/ronitf/heart-disea
 
 ### Variables
 
-## heart-disease.ipynb
+## Files
 
-This is the Jupyter Notebook which contains the exploratory data analysis, data cleaning, feature engineering, and ML modeling which was performed on [Kaggle](https://www.kaggle.com/ronitf/heart-disease-uci).
+### eda-cleaning-engineering.py
+
+### modeling.py
+
+### final-model.py
 
 ## Results
 
