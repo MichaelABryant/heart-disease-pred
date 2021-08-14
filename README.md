@@ -16,11 +16,17 @@ The dataset was gathered from [Kaggle](https://www.kaggle.com/ronitf/heart-disea
 
 ## Files
 
-### eda-cleaning-engineering.py
+### eda-engineering.py
+
+This file contains the exploratory data analysis (EDA), data cleaning, and feature engineering. The EDA is performed using descriptive statistics, histograms to determine distributions, and a correlation heatmap using the Pearson correlation coefficient. The feature engineering is performed by creating a predictor based on risk factors. The dummy variables are created for categorical variables with pandas get_dummies and the numerical features are scaled using MinMaxScaler. The scaler is pickled after fitting for use with productionization.
 
 ### modeling.py
 
+This file contains the modeling where I hyperparameter tune: GaussianNB, LogisticRegression, DecisionTreeClassifier, kNeighborsClassifier, RandomForestClassifier, SVC (support vector classifier), XGBClassifier, StackingClassifier, (hard) VotingClassifier, (soft) VotingClassifier, BaggingClassifier, (pasting with) BaggingClassifier, and AdaBoostClassifier. Since the computational power needed is low due to having only 303 records, I figured I could easily use many common ML algorithms and enesemble methods. The models are hyperparameter tuned with GridSearchCV based on accuracy and the best models are judged based on accuracy, sensitivity, specificity, precision, and AUC metrics. This file also contains code to derive the feature importance from the best models using shap and eli5. The scaler is pickled for use with the application.
+
 ### final-model.py
+
+This file contains the best model (SVC) and it is pickled for use with the application.
 
 ## Results
 
