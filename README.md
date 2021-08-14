@@ -59,8 +59,8 @@ I looked at the distributions of the data and the correlations between variables
 <div align="center">
   
 <figure>
-<img src="images/ca-target.jpg"><br/>
-  <figcaption>Figure 3: Bar plot showing that the likelihood of heart disease increases when less major veseels are detectable.</figcaption>
+<img src="images/oldpeak-target.jpg"><br/>
+  <figcaption>Figure 3: Violin plot showing lower oldpeak values for those with heart disease.</figcaption>
 </figure>
 <br/><br/>
   
