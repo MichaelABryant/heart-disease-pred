@@ -120,7 +120,7 @@ I feature engineered using the dataset for future modeling. I made the following
 <div align="center">
   
 <figure>
-<img src="images/risk-factors-target.jpg"><br/>
+<img src="images/shap-svc.jpg"><br/>
   <figcaption>Figure 8: SHAP summary plot of the feature importance for the SVC model.</figcaption>
 </figure>
 <br/><br/>
@@ -130,7 +130,7 @@ I feature engineered using the dataset for future modeling. I made the following
 <div align="center">
   
 <figure>
-<img src="images/risk-factors-target.jpg"><br/>
+<img src="images/permutation-importance-stacking.jpg"><br/>
   <figcaption>Figure 9: Permutation importance for the stacking model.</figcaption>
 </figure>
 <br/><br/>
@@ -140,7 +140,7 @@ I feature engineered using the dataset for future modeling. I made the following
 <div align="center">
   
 <figure>
-<img src="images/risk-factors-target.jpg"><br/>
+<img src="images/dt.jpg"><br/>
   <figcaption>Figure 10: Graphical representation of a decision tree.</figcaption>
 </figure>
 <br/><br/>
@@ -148,21 +148,13 @@ I feature engineered using the dataset for future modeling. I made the following
 </div>
 
 <div align="center">
-  
-<figure>
-<img src="images/risk-factors-target.jpg"><br/>
-  <figcaption>Figure 11: Graphical representation of a decision tree.</figcaption>
-</figure>
-<br/><br/>
-  
-</div>
 
 ## Productionization
 
 <div align="center">
   
 <figure>
-<img src="images/front-end.JPG">
+<img src="images/front-end.JPG"><br/>
   <figcaption>Figure 12: Front end of application using the SVC model.</figcaption>
 </figure>
 <br/><br/>
