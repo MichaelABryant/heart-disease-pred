@@ -36,11 +36,21 @@ This is the Jupyter Notebook which contains the exploratory data analysis, data 
 
 I cleaned the data to make the dataset usable for future modeling. I made the following changes:
 
-### Featured Engineering
+### Feature Engineering
 
 I feature engineered using the dataset for future modeling. I made the following changes:
 
-## Applications
+## Productionization
+
+<div align="center">
+  
+<figure>
+<img src="front-end.jpg">
+  <figcaption></figcaption>
+</figure>
+<br/><br/>
+  
+</div>
 
 ## Resources
 
