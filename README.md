@@ -46,6 +46,36 @@ I looked at the distributions of the data and the correlations between variables
   
 </div>
 
+<div align="center">
+  
+<figure>
+<img src="images/thalach-age-target.jpg"><br/>
+  <figcaption>Figure 2: Scatter plot with linear regression lines showing maximum heart rate decreases at a greater rate with age for those with heart disease.</figcaption>
+</figure>
+<br/><br/>
+  
+</div>
+
+<div align="center">
+  
+<figure>
+<img src="images/ca-target.jpg"><br/>
+  <figcaption>Figure 3: Bar plot showing that the likelihood of heart disease increases when less major veseels are detectable.</figcaption>
+</figure>
+<br/><br/>
+  
+</div>
+
+<div align="center">
+  
+<figure>
+<img src="images/risk-factors-target.jpg"><br/>
+  <figcaption>Figure 4: Bar plot showing minimal relationship between number of risk factors and heart disease.</figcaption>
+</figure>
+<br/><br/>
+  
+</div>
+
 ### Data Cleaning
 
 I cleaned the data to make the dataset usable for future modeling. I made the following changes:
