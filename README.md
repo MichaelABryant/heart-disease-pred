@@ -79,8 +79,15 @@ I looked at the distributions of the data and the correlations between variables
 ### Feature Engineering
 
 I feature engineered using the dataset for future modeling. I made the following changes:
+* Created dummy variables for `sex`,`cp`, `fbs`, `restecg`, `exang`, `slope`, `ca`, `thal`
 
 ### Model Building
+
+First, I split the data into train and tests sets with a test set size of 25%.
+
+I then hyperparameter tuned 13 different models with five-fold cross-validation and evaluated them using accuracy.
+
+The models I used were GaussianNB, LogisticRegression, DecisionTreeClassifier, kNeighborsClassifier, RandomForestClassifier, SVC (support vector classifier), XGBClassifier, StackingClassifier, (hard) VotingClassifier, (soft) VotingClassifier, BaggingClassifier, (pasting with) BaggingClassifier, and AdaBoostClassifier.
 
 ### Model Performance
 
