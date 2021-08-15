@@ -140,13 +140,13 @@ The decision tree graphic, shown in Figure 7, is included because it is easy to 
 
 ## Productionization
 
-I built a [Heroku web app](https://predict-heart-diseases.herokuapp.com/) with a front end which takes patient medical information input from the user and outputs a heart disease prediction using the SVC model. More information on this can be found at it's [repo](https://github.com/MichaelBryantDS/heart-disease-pred-app).
+I built a [Heroku web app](https://predict-heart-diseases.herokuapp.com/) with a front end which takes patient medical information input from the user and outputs a heart disease prediction using the hard voting classifier model. More information on this can be found at it's [repo](https://github.com/MichaelBryantDS/heart-disease-pred-app).
 
 <div align="center">
   
 <figure>
 <img src="images/front-end.JPG"><br/>
-  <figcaption>Figure 8: Front end of application using the SVC model.</figcaption>
+  <figcaption>Figure 8: Front end of application using the hard voting classifier model.</figcaption>
 </figure>
 <br/><br/>
   
