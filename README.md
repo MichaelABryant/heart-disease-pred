@@ -126,10 +126,10 @@ According to the permutation importance for the hard voting classifier in Figure
   
 </div>
 
-<div align="center">
-  
 The decision tree graphic, shown in Figure 7, is included because it is easy to derive insights from this model and it scored similarly in accuracy to the best models. `thal` appears to be one of the more important features as it also appears in the permutation importance for the hard voting classifier. Having a reversible defect, as determined by the thalium stress test, may signify heart disease whereas having normal results (i.e., the best outcome) is a good indicator that you don't have heart disease. A thalium stress test indicated a fixed defect is the most heavily weighted feature for the hard voting classifier to classify records as having no heart disease.
-  
+
+<div align="center">
+
 <figure>
 <img src="images/dt.jpg"><br/>
   <figcaption>Figure 7: Graphical representation of a decision tree.</figcaption>
