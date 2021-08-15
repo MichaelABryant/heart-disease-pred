@@ -91,35 +91,12 @@ The models I used were GaussianNB, LogisticRegression, DecisionTreeClassifier, k
 
 ### Model Performance
 
-<div align="center">
-  
-<figure>
-<img src="images/confusion-matrix-svc.jpg"><br/>
-  <figcaption>Figure 5: Confusion matrix for the support vector classifier.</figcaption>
-</figure>
-<br/><br/>
-  
-</div>
+For this application it's important to minimize false negatives (i.e., people who have heart disease but were predicted not to). I looked at accuracy, precision, specificity, sensitivity, AUC, and MCC to make the decision. For these reasons, the best model was:
 
-<div align="center">
-  
-<figure>
-<img src="images/classification-report-svc.jpg"><br/>
-  <figcaption>Figure 6: Classification report for the support vector classifier.</figcaption>
-</figure>
-<br/><br/>
-  
-</div>
-
-<div align="center">
-  
-<figure>
-<img src="images/lift-curve-svc.jpg"><br/>
-  <figcaption>Figure 7: Lift curve for the support vector classifier.</figcaption>
-</figure>
-<br/><br/>
-  
-</div>
+* Hard VotingClassifier
+* Accuracy: 0.8553
+* Sensitivity: 0.8717
+* Specificity: 0.8367
 
 
 ### Feature Importance
