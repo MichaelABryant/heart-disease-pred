@@ -103,6 +103,8 @@ For this application it's important to minimize false negatives (i.e., people wh
 
 ### Feature Importance
 
+According to the permutation importance for the hard voting classifier, the most important features, in order, were `slope`, `thalach`, `oldpeak`, `ca`, and `cp`.
+
 <div align="center">
   
 <figure>
