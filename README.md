@@ -97,6 +97,8 @@ For this application it's important to minimize false negatives (i.e., people wh
 * Accuracy: 0.8553
 * Sensitivity: 0.8717
 * Specificity: 0.8367
+* Precision: 0.8571
+* MCC: 0.7084
 
 
 ### Feature Importance
