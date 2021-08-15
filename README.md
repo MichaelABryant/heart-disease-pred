@@ -14,7 +14,7 @@ The dataset was gathered from [Kaggle](https://www.kaggle.com/ronitf/heart-disea
 
 ### Variables
 
-`age`, `sex`,`cp`, `trestbps`, `chol`, `fbs`, `restecg`, `thalach`, `exang`, `oldpeak`, `slope`, `ca`, `thal`
+`age`, `sex`,`cp` (chest pain), `trestbps` (resting blood pressure), `chol` (cholesterol), `fbs` (fasting blood sugar), `restecg` (electrocardiogram), `thalach` (maximum heartrate), `exang` (exercise-induced angina), `oldpeak` (exercise ST depression), `slope` (exercise ST slope), `ca` (flouroscopy colored major vessels), `thal` (thalium stress test)
 
 ## Files
 
