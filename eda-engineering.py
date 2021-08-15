@@ -92,6 +92,11 @@ plt.figure(figsize=(16, 6))
 sns.heatmap(heart_data[numerical].corr(method='pearson'), vmin=-1, vmax=1, annot=True,cmap='coolwarm')
 plt.title('Pearson Correlation Heatmap for numerical Variables', fontdict={'fontsize':12}, pad=12);
 
+#look at how target is distributed among variables
+sns.pairplot(heart_data,hue='target',palette='Set1')
+plt.legend()
+plt.show()
+
 #thalach vs age
 sns.lmplot(x='age', y='thalach', data=heart_data, palette='Set1')
 
