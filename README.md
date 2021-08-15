@@ -20,7 +20,7 @@ The dataset was gathered from [Kaggle](https://www.kaggle.com/ronitf/heart-disea
 
 ### eda-engineering.py
 
-This file contains the EDA, data cleaning, and feature engineering. The EDA is performed using descriptive statistics, histograms to determine distributions, and a correlation heatmap using the Pearson correlation coefficient. A feature is engineered by creating a predictor based on risk factors. Other feature engineering includes the creation of dummy variables for categorical variables with pandas get_dummies and numerical features are scaled using MinMaxScaler. The scaler is pickled after fitting for use with productionization.
+This file contains the EDA and feature engineering. The EDA is performed using descriptive statistics, histograms to determine distributions, and a correlation heatmap using the Pearson correlation coefficient. A feature is engineered by creating a predictor based on risk factors. Other feature engineering includes the creation of dummy variables for categorical variables with pandas get_dummies and numerical features are scaled using MinMaxScaler. The scaler is pickled after fitting for use with productionization.
 
 ### modeling.py
 
