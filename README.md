@@ -1,6 +1,6 @@
 # Project 3: Heart Disease Prediction (Python/HTML)
 
-This repository is for the analysis and modeling done with the Kaggle: Heart Disease ICU dataset. Below you will find an overview of the data, code, and results. The goal was to create an end-to-end project where I perform an exploratory data analysis, feature engineer, apply machine learning algorithms to predict heart disease, and create a [deployed application with a front end](https://predict-heart-diseases.herokuapp.com/) to productionize the best performing model. The repo for the app can be found [here](https://github.com/MichaelBryantDS/heart-disease-pred-app).
+This repository is for the analysis and modeling done with the Kaggle: Heart Disease ICU dataset. Below you will find an overview of the data, code, and results. The goal was to create an end-to-end project where I perform an exploratory data analysis (EDA), feature engineer, apply machine learning algorithms to predict heart disease, and create a [deployed application with a front end](https://predict-heart-diseases.herokuapp.com/) to productionize the best performing model. The repo for the app can be found [here](https://github.com/MichaelBryantDS/heart-disease-pred-app).
 
 ### Code Used 
 
@@ -14,21 +14,21 @@ The dataset was gathered from [Kaggle](https://www.kaggle.com/ronitf/heart-disea
 
 ### Variables
 
-`age`, `sex`,`cp` (chest pain), `trestbps` (resting blood pressure), `chol` (cholesterol), `fbs` (fasting blood sugar), `restecg` (electrocardiogram), `thalach` (maximum heartrate), `exang` (exercise-induced angina), `oldpeak` (exercise ST depression), `slope` (exercise ST slope), `ca` (flouroscopy colored major vessels), `thal` (thalium stress test)
+`age`, `sex`,`cp`, `trestbps`, `chol`, `fbs`, `restecg`, `thalach`, `exang`, `oldpeak`, `slope`, `ca`, `thal`
 
 ## Files
 
 ### eda-engineering.py
 
-This file contains the exploratory data analysis (EDA), data cleaning, and feature engineering. The EDA is performed using descriptive statistics, histograms to determine distributions, and a correlation heatmap using the Pearson correlation coefficient. The feature engineering is performed by creating a predictor based on risk factors. The dummy variables are created for categorical variables with pandas get_dummies and the numerical features are scaled using MinMaxScaler. The scaler is pickled after fitting for use with productionization.
+This file contains the EDA, data cleaning, and feature engineering. The EDA is performed using descriptive statistics, histograms to determine distributions, and a correlation heatmap using the Pearson correlation coefficient. A feature is engineered by creating a predictor based on risk factors. Other feature engineering includes the creation of dummy variables for categorical variables with pandas get_dummies and numerical features are scaled using MinMaxScaler. The scaler is pickled after fitting for use with productionization.
 
 ### modeling.py
 
-This file contains the modeling where I hyperparameter tune: GaussianNB, LogisticRegression, DecisionTreeClassifier, kNeighborsClassifier, RandomForestClassifier, SVC (support vector classifier), XGBClassifier, StackingClassifier, (hard) VotingClassifier, (soft) VotingClassifier, BaggingClassifier, (pasting with) BaggingClassifier, and AdaBoostClassifier. Since the computational power needed is low due to having only 303 records with 12 features, I figured I could easily use 13 common ML algorithms and enesemble methods without taking too long. The models are hyperparameter tuned with GridSearchCV based on accuracy and the best models are judged based on accuracy, sensitivity, specificity, precision, and AUC metrics. This file also contains code to derive the feature importance from the best models using shap and eli5. The scaler is pickled for use with the application.
+This file contains the modeling where I hyperparameter tune: GaussianNB, LogisticRegression, DecisionTreeClassifier, kNeighborsClassifier, RandomForestClassifier, SVC (support vector classifier), XGBClassifier, StackingClassifier, (hard) VotingClassifier, (soft) VotingClassifier, BaggingClassifier, (pasting with) BaggingClassifier, and AdaBoostClassifier. Since the computational needs are low from having 303 records with 12 features, I used 13 ML algorithms and ensemble methods. The models are hyperparameter tuned with GridSearchCV based on accuracy and the best models are judged based on accuracy, sensitivity, specificity, precision, and AUC metrics. This file also contains code to derive the feature importance from the best models using shap and eli5 package.
 
 ### final-model.py
 
-This file contains the best model (SVC) and it is pickled for use with the application.
+This file contains the best model (SVC) and it is pickled for use with productionization.
 
 ## Results
 
