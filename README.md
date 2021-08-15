@@ -156,6 +156,8 @@ The models I used were GaussianNB, LogisticRegression, DecisionTreeClassifier, k
 
 ## Productionization
 
+I built a [Heroku web app](https://predict-heart-diseases.herokuapp.com/) with a front end which takes patient medical information input from the user and outputs a heart disease prediction using the SVC model. More information on this can be found at it's [repo](https://github.com/MichaelBryantDS/heart-disease-pred-app).
+
 <div align="center">
   
 <figure>
