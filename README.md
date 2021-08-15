@@ -100,6 +100,7 @@ For this application it's important to minimize false negatives (i.e., people wh
 * Precision: 0.8571
 * MCC: 0.7084
 
+The hard voting classifier included GaussianNB, LogisticRegression, and SVC.
 
 ### Feature Importance
 
