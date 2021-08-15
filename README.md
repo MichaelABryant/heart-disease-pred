@@ -104,13 +104,13 @@ The hard voting classifier included GaussianNB, LogisticRegression, and SVC.
 
 ### Feature Importance
 
-According to the permutation importance for the hard voting classifier in Figure 9, the most important features, in order, were `slope`, `thalach`, `oldpeak`, `ca`, and `cp`. `fbs` and `chol` had no impact on the model which is against conventional wisdom that diabetes and high cholesterol increase the risk for heart disease. Although, this group of people are not representative of the general population, because the common trait of these patients is that they have all experienced angina. `thalach` ranks highly in feature importance, as shown in Figure 2, there is a definite difference between the heart disease groups. Interestingly, maximum heart rate converges for the two groups, so `thalach` is probably more useful to determine heart disease in younger patients than older. `slope` is the most important feature to the hard voting classifier which is determined from the ST segment of the electrocardiogram. Looking at Figure 10, the SVC model does not prioritize this feature as much so it must be heavily weighted from either naive Bayes or logistic regression.
+According to the permutation importance for the hard voting classifier in Figure 5, the most important features, in order, were `slope`, `thalach`, `oldpeak`, `ca`, and `cp`. `fbs` and `chol` had no impact on the model which is against conventional wisdom that diabetes and high cholesterol increase the risk for heart disease. Although, this group of people are not representative of the general population, because the common trait of these patients is that they have all experienced angina. `thalach` ranks highly in feature importance, as shown in Figure 2, there is a definite difference between the heart disease groups. Interestingly, maximum heart rate converges for the two groups, so `thalach` is probably more useful to determine heart disease in younger patients than older. `slope` is the most important feature to the hard voting classifier which is determined from the ST segment of the electrocardiogram. Looking at Figure 6, the SVC model does not prioritize this feature as much so it must be heavily weighted from either naive Bayes or logistic regression.
 
 <div align="center">
   
 <figure>
 <img src="images/perm-import-hv.JPG"><br/>
-  <figcaption>Figure 9: Permutation importance for the hard voting classifier.</figcaption>
+  <figcaption>Figure 5: Permutation importance for the hard voting classifier.</figcaption>
 </figure>
 <br/><br/>
   
@@ -120,7 +120,7 @@ According to the permutation importance for the hard voting classifier in Figure
   
 <figure>
 <img src="images/shap-svc.jpg"><br/>
-  <figcaption>Figure 8: SHAP summary plot of the feature importance for the SVC model.</figcaption>
+  <figcaption>Figure 6: SHAP summary plot of the feature importance for the SVC model.</figcaption>
 </figure>
 <br/><br/>
   
@@ -128,9 +128,11 @@ According to the permutation importance for the hard voting classifier in Figure
 
 <div align="center">
   
+The decision tree graphic, shown in Figure 7, is included because it is easy to derive insights from this model and it scored similarly in accuracy to the best models. `thal` appears to be one of the more important features as it also appears in the permutation importance for the hard voting classifier. Having a reversible defect, as determined by the thalium stress test, may signify heart disease whereas having normal results (i.e., the best outcome) is a good indicator that you don't have heart disease. A thalium stress test indicated a fixed defect is the most heavily weighted feature for the hard voting classifier to classify records as having no heart disease.
+  
 <figure>
 <img src="images/dt.jpg"><br/>
-  <figcaption>Figure 10: Graphical representation of a decision tree.</figcaption>
+  <figcaption>Figure 7: Graphical representation of a decision tree.</figcaption>
 </figure>
 <br/><br/>
   
@@ -144,7 +146,7 @@ I built a [Heroku web app](https://predict-heart-diseases.herokuapp.com/) with a
   
 <figure>
 <img src="images/front-end.JPG"><br/>
-  <figcaption>Figure 12: Front end of application using the SVC model.</figcaption>
+  <figcaption>Figure 8: Front end of application using the SVC model.</figcaption>
 </figure>
 <br/><br/>
   
