@@ -106,8 +106,8 @@ For this application it's important to minimize false negatives (i.e., people wh
 <div align="center">
   
 <figure>
-<img src="images/shap-svc.jpg"><br/>
-  <figcaption>Figure 8: SHAP summary plot of the feature importance for the SVC model.</figcaption>
+<img src="images/perm-import-hv.JPG"><br/>
+  <figcaption>Figure 9: Permutation importance for the hard voting classifier.</figcaption>
 </figure>
 <br/><br/>
   
@@ -116,8 +116,8 @@ For this application it's important to minimize false negatives (i.e., people wh
 <div align="center">
   
 <figure>
-<img src="images/permutation-importance-stacking.jpg"><br/>
-  <figcaption>Figure 9: Permutation importance for the stacking model.</figcaption>
+<img src="images/shap-svc.jpg"><br/>
+  <figcaption>Figure 8: SHAP summary plot of the feature importance for the SVC model.</figcaption>
 </figure>
 <br/><br/>
   
