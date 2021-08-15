@@ -91,7 +91,7 @@ The models I used were GaussianNB, LogisticRegression, DecisionTreeClassifier, k
 
 ### Model Performance
 
-For this application it's important to minimize false negatives (i.e., people who have heart disease but were predicted not to). I looked at accuracy, precision, specificity, sensitivity, AUC, and MCC to make the decision. For these reasons, the best model was:
+For this application it's important to minimize false negatives (i.e., people who have heart disease but were predicted not to). I looked at accuracy, precision, specificity, sensitivity, AUC, and MCC to choose the best model. For these reasons, the best model was:
 <br/><br/>
 **Hard VotingClassifier**
 * Accuracy: 0.8553
