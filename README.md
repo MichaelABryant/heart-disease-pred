@@ -1,4 +1,4 @@
-# Project 3: Heart Disease Prediction (Python/HTML)
+# Heart Disease Detection App
 
 This repository is for the analysis and modeling done with the Kaggle: Heart Disease ICU dataset. Below you will find an overview of the data, code, and results. The goal was to create an end-to-end project where I perform an exploratory data analysis (EDA), feature engineer, apply machine learning algorithms to predict heart disease, and create a [deployed application with a front end](https://predict-heart-diseases.herokuapp.com/) to productionize the best performing model. The repo for the app can be found [here](https://github.com/MichaelBryantDS/heart-disease-pred-app).
 
