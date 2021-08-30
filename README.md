@@ -145,7 +145,7 @@ I built a [Heroku web app](https://predict-heart-diseases.herokuapp.com/) with a
 <div align="center">
   
 <figure>
-<img src="images/frontend.JPG"><br/>
+<img src="images/heart-deployment.gif"><br/>
   <figcaption>Figure 8: Front-end of application using the hard voting classifier model.</figcaption>
 </figure>
 <br/><br/>
