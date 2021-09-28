@@ -28,7 +28,7 @@ This file contains the modeling where I hyperparameter tune: GaussianNB, Logisti
 
 ### final-model.py
 
-This file contains the best model (SVC) and it is pickled for use with productionization.
+This file contains the best model (hard voting classifier) and it is pickled for use with productionization.
 
 ## Results
 
